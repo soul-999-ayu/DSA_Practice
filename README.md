@@ -7,8 +7,6 @@ I created this repository to keep track of my codes and store all my pactice cod
 ## Where am I learning DSA from?:
 I'm learning DSA using C and C+ from Abdul Bari sir:
 
-<figure class="video_container">
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.udemy.com/course/datastructurescncpp/" style="border: 1px solid black"></iframe>
-</figure>
+[![Screenshot (75)]((https://github.com/soul-999-ayu/DSA_Practice/assets/91123494/a07a7512-0ef0-46bc-99a1-746402970c46)](https://www.udemy.com/course/datastructurescncpp/)
 
 Contact me on [WhatsApp](https://wa.link/hcohw6) to get this course at cheap price.
