@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//Creating structure
 struct rect{
     int length;
     int breadth;
