@@ -9,7 +9,7 @@ int main() {
     int *p = &a;
     
     cout << "Value of a " << a << endl;
-     cout << "Value of a (using pointer p): " << *p << endl;
+    cout << "Value of a (using pointer p): " << *p << endl;
     cout << "Address of a: " << &a << endl;
     cout << "Address of a (using pointer p): " << &a << endl;
     
