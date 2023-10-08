@@ -18,7 +18,7 @@ int main() {
     *p1=100; //Assigning value
     
      //C++ Language
-    int *p2 = (int *) malloc(sizeof(int)); //Allocating memory
+    int *p2 = new int; //Allocating memory
     *p2=200; //Assigning value
     
     cout << endl << "Value of p1: " << *p1 << endl;
