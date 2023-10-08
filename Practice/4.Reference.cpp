@@ -3,11 +3,13 @@
 
 using namespace std;
 
+//Creating function
 void change(int &c, int value){
     c=value;
 }
 
 int main() {
+    //Creating variable and reference
     int a = 10;
     int &r = a;
     
