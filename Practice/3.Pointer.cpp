@@ -11,7 +11,7 @@ int main() {
     cout << "Value of a " << a << endl;
     cout << "Value of a (using pointer p): " << *p << endl;
     cout << "Address of a: " << &a << endl;
-    cout << "Address of a (using pointer p): " << &a << endl;
+    cout << "Address of a (using pointer p): " << p << endl;
     
     //C Language
     int *p1 = (int *) malloc(sizeof(int)); //Allocating memory
