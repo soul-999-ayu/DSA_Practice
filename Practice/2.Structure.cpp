@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-    
+
+    //Creating structure
     struct Student{
         int Roll_no;
         string name;
@@ -12,9 +13,11 @@ int main() {
     };
     
     int no_of_students = 2;
-    
+
+    //Creating structure array
     struct Student all_student[no_of_students];
-    
+
+    //Inserting values
     for(int i=0; i<no_of_students; i++){
         cout << endl;
         cout << endl << "Enter Roll no of student " << i+1 << ": ";
@@ -26,7 +29,8 @@ int main() {
     }
     
     cout << endl;
-    
+
+    //Printing values
     for(int i=0; i<no_of_students; i++){
         cout << endl << "Roll no of student " << i+1 << ": " << all_student[i].Roll_no;
         cout << endl << "Name of student " << i+1<< ": " << all_student[i].name;
