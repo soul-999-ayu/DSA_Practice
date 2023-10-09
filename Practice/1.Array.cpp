@@ -4,13 +4,15 @@
 using namespace std;
 
 int main() {
-    
+
+    //Creating variable and array
     int no_of_students = 2;
     
     int Roll_no[no_of_students];
     string name[no_of_students];
     int id[no_of_students];
-    
+
+    //Inserting values
     for(int i=0; i<no_of_students; i++){
         cout << endl;
         cout << endl << "Enter Roll no: ";
@@ -22,7 +24,8 @@ int main() {
     }
     
     cout << endl;
-    
+
+    //Printing values
     for(int i=0; i<no_of_students; i++){
         cout << endl << "Roll no of student " << i+1 << ": " << Roll_no[i];
         cout << endl << "Name of student " << i+1<< ": " << name[i];
